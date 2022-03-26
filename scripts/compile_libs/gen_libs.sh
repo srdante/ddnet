@@ -111,7 +111,7 @@ build_cmake_lib opus https://github.com/xiph/opus
 # SQLite, just download and built by hand
 if [ ! -d "sqlite3" ]; then
 	wget https://www.sqlite.org/2021/sqlite-amalgamation-3360000.zip
-	7z e sqlite-amalgamation-3360000.zip -osqlite3
+	unzip sqlite-amalgamation-3360000.zip -d sqlite3
 fi
 
 (
